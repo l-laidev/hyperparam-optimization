@@ -14,6 +14,8 @@ from skopt import gp_minimize
 from hyperopt import hp, fmin, tpe, Trials
 from hyperopt.pyll.base import scope
 
+import optuna
+
 from functools import partial
 
 
