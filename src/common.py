@@ -11,6 +11,8 @@ from sklearn import pipeline
 from skopt import space
 from skopt import gp_minimize
 
+from hyperopt import hp, fmin, tpe, Trials
+
 from functools import partial
 
 
