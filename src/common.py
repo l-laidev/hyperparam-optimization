@@ -6,7 +6,7 @@ from sklearn import metrics
 from sklearn import model_selection
 
 
-TRAIN_CSV = "./train.csv"
+TRAIN_CSV = "../train.csv"
 
 df = pd.read_csv(TRAIN_CSV)
 X = df.drop("price_range", axis=1).values
