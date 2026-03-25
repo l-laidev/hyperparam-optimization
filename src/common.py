@@ -8,6 +8,11 @@ from sklearn import preprocessing
 from sklearn import decomposition
 from sklearn import pipeline
 
+from skopt import space
+from skopt import gp_minimize
+
+from functools import partial
+
 
 TRAIN_CSV = "../train.csv"
 
